@@ -6,7 +6,7 @@ import tempfile
 import mmcv
 import numpy as np
 
-from mmseg.datasets.pipelines import LoadAnnotations, LoadImageFromFile
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.pipelines import LoadAnnotations, LoadImageFromFile
 
 
 class TestLoading(object):

@@ -86,7 +86,7 @@ optimizer = dict(type='MyOptimizer', a=a_value, b=b_value, c=c_value)
 from mmcv.utils import build_from_cfg
 
 from mmcv.runner.optimizer import OPTIMIZER_BUILDERS, OPTIMIZERS
-from mmseg.utils import get_root_logger
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import get_root_logger
 from .my_optimizer import MyOptimizer
 
 

@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import MixVisionTransformer
-from mmseg.models.backbones.mit import (EfficientMultiheadAttention, MixFFN,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import MixVisionTransformer
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.mit import (EfficientMultiheadAttention, MixFFN,
                                         TransformerEncoderLayer)
 
 

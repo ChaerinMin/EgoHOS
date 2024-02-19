@@ -8,7 +8,7 @@ import torch
 from mmcv.cnn.utils.sync_bn import revert_sync_batchnorm
 from ts.torch_handler.base_handler import BaseHandler
 
-from mmseg.apis import inference_segmentor, init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import inference_segmentor, init_segmentor
 
 
 class MMsegHandler(BaseHandler):

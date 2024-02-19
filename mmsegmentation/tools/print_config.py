@@ -4,7 +4,7 @@ import warnings
 
 from mmcv import Config, DictAction
 
-from mmseg.apis import init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import init_segmentor
 
 
 def parse_args():

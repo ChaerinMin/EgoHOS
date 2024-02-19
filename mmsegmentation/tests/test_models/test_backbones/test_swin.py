@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones.swin import SwinBlock, SwinTransformer
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.swin import SwinBlock, SwinTransformer
 
 
 def test_swin_block():

@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.necks import ICNeck
-from mmseg.models.necks.ic_neck import CascadeFeatureFusion
+from submodules.EgoHOS.mmsegmentation.mmseg.models.necks import ICNeck
+from submodules.EgoHOS.mmsegmentation.mmseg.models.necks.ic_neck import CascadeFeatureFusion
 from ..test_heads.utils import _conv_has_norm, to_cuda
 
 

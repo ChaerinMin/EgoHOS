@@ -303,7 +303,7 @@ Examples:
 
 In order to serve an `MMSegmentation` model with [`TorchServe`](https://pytorch.org/serve/), you can follow the steps:
 
-### 1. Convert model from MMSegmentation to TorchServe
+### 1. Convert model from submodules.EgoHOS.mmsegmentation.mmsegmentation to TorchServe
 
 ```shell
 python tools/torchserve/mmseg2torchserve.py ${CONFIG_FILE} ${CHECKPOINT_FILE} \

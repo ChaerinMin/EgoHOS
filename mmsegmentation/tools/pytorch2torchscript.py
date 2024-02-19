@@ -9,7 +9,7 @@ import torch.serialization
 from mmcv.runner import load_checkpoint
 from torch import nn
 
-from mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
 
 torch.manual_seed(3)
 

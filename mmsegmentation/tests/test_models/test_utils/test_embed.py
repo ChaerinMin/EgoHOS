@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.utils.embed import AdaptivePadding, PatchEmbed, PatchMerging
+from submodules.EgoHOS.mmsegmentation.mmseg.models.utils.embed import AdaptivePadding, PatchEmbed, PatchMerging
 
 
 def test_adaptive_padding():

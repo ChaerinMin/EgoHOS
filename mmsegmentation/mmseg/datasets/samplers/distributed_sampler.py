@@ -6,7 +6,7 @@ import torch
 from torch.utils.data import Dataset
 from torch.utils.data import DistributedSampler as _DistributedSampler
 
-from mmseg.core.utils import sync_random_seed
+from submodules.EgoHOS.mmsegmentation.mmseg.core.utils import sync_random_seed
 
 
 class DistributedSampler(_DistributedSampler):

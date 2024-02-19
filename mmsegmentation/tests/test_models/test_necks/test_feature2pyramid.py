@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models import Feature2Pyramid
+from submodules.EgoHOS.mmsegmentation.mmseg.models import Feature2Pyramid
 
 
 def test_feature2pyramid():

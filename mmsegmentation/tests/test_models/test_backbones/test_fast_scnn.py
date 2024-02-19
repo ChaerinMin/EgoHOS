@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import FastSCNN
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import FastSCNN
 
 
 def test_fastscnn_backbone():

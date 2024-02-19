@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmseg.models.decode_heads.knet_head import (IterativeDecodeHead,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads.knet_head import (IterativeDecodeHead,
                                                  KernelUpdateHead)
 from .utils import to_cuda
 

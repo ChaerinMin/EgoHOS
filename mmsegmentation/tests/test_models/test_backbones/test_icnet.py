@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import ICNet
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import ICNet
 
 
 def test_icnet_backbone():

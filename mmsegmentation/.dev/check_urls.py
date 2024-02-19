@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 import requests
 import yaml as yml
 
-from mmseg.utils import get_root_logger
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import get_root_logger
 
 
 def check_url(url):

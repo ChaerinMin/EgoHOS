@@ -6,7 +6,7 @@ from os.path import dirname, exists, isdir, join, relpath
 from mmcv import Config
 from torch import nn
 
-from mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
 
 
 def _get_config_directory():
@@ -69,7 +69,7 @@ def test_config_data_pipeline():
     import numpy as np
     from mmcv import Config
 
-    from mmseg.datasets.pipelines import Compose
+    from submodules.EgoHOS.mmsegmentation.mmseg.datasets.pipelines import Compose
 
     config_dpath = _get_config_directory()
     print('Found config_dpath = {!r}'.format(config_dpath))

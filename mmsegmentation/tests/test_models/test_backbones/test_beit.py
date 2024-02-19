@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones.beit import BEiT
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.beit import BEiT
 from .utils import check_norm_state
 
 

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import mmcv
 import requests
 
-from mmseg.apis import inference_segmentor, init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import inference_segmentor, init_segmentor
 
 
 def parse_args():

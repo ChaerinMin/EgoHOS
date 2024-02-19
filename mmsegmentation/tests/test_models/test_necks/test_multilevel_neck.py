@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmseg.models import MultiLevelNeck
+from submodules.EgoHOS.mmsegmentation.mmseg.models import MultiLevelNeck
 
 
 def test_multilevel_neck():

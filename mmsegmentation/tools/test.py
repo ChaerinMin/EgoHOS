@@ -14,11 +14,11 @@ from mmcv.runner import (get_dist_info, init_dist, load_checkpoint,
                          wrap_fp16_model)
 from mmcv.utils import DictAction
 
-from mmseg import digit_version
-from mmseg.apis import multi_gpu_test, single_gpu_test
-from mmseg.datasets import build_dataloader, build_dataset
-from mmseg.models import build_segmentor
-from mmseg.utils import setup_multi_processes
+from submodules.EgoHOS.mmsegmentation.mmseg import digit_version
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import multi_gpu_test, single_gpu_test
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import build_dataloader, build_dataset
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import setup_multi_processes
 
 
 def parse_args():

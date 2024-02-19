@@ -4,7 +4,7 @@ from unittest.mock import patch
 import pytest
 import torch
 
-from mmseg.models.decode_heads.decode_head import BaseDecodeHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads.decode_head import BaseDecodeHead
 from .utils import to_cuda
 
 

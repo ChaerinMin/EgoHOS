@@ -197,7 +197,7 @@ def _test_encoder_decoder_forward(cfg_file):
     model['pretrained'] = None
     model['test_cfg']['mode'] = 'whole'
 
-    from mmseg.models import build_segmentor
+    from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
     segmentor = build_segmentor(model)
     segmentor.init_weights()
 

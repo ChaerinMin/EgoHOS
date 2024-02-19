@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.decode_heads import SETRUPHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import SETRUPHead
 from .utils import to_cuda
 
 

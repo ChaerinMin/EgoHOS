@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.decode_heads import DPTHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import DPTHead
 
 
 def test_dpt_head():

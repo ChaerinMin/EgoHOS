@@ -4,7 +4,7 @@ import torch
 
 
 def test_lovasz_loss():
-    from mmseg.models import build_loss
+    from submodules.EgoHOS.mmsegmentation.mmseg.models import build_loss
 
     # loss_type should be 'binary' or 'multi_class'
     with pytest.raises(AssertionError):

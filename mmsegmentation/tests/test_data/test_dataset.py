@@ -11,8 +11,8 @@ import pytest
 import torch
 from PIL import Image
 
-from mmseg.core.evaluation import get_classes, get_palette
-from mmseg.datasets import (DATASETS, ADE20KDataset, CityscapesDataset,
+from submodules.EgoHOS.mmsegmentation.mmseg.core.evaluation import get_classes, get_palette
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import (DATASETS, ADE20KDataset, CityscapesDataset,
                             COCOStuffDataset, ConcatDataset, CustomDataset,
                             ISPRSDataset, LoveDADataset, MultiImageMixDataset,
                             PascalVOCDataset, PotsdamDataset, RepeatDataset,

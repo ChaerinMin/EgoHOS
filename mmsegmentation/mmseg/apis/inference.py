@@ -4,8 +4,8 @@ import mmcv
 import torch
 from mmcv.parallel import collate, scatter
 from mmcv.runner import load_checkpoint
-from mmseg.datasets.pipelines import Compose
-from mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.pipelines import Compose
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
 
 
 def init_segmentor(config, checkpoint=None, device='cuda:0'):
@@ -67,7 +67,7 @@ class LoadImage:
         return results
 
 
-def inference_segmentor(model, img):
+def inference_segmentor(model, img, twohands=None, cb=None):
     """Inference image(s) with the segmentor.
 
     Args:
@@ -97,8 +97,15 @@ def inference_segmentor(model, img):
         data['img_metas'][0][0]['additional_channel'] = cfg['additional_channel']
     if 'twohands_dir' in cfg.keys():
         data['img_metas'][0][0]['twohands_dir'] = cfg['twohands_dir']
+        if twohands is None:
+            raise ValueError("twohands is required for computing cb")
+        data['img_metas'][0][0]['twohands'] = twohands
     if 'cb_dir' in cfg.keys():
         data['img_metas'][0][0]['cb_dir'] = cfg['cb_dir']
+        if twohands is None or cb is None:
+            raise ValueError("twohands and cb are required for segmenting object")
+        data['img_metas'][0][0]['twohand'] = twohands
+        data['img_metas'][0][0]['twohand_cb'] = cb
     
     # forward the model
     with torch.no_grad():

@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones.vit import (TransformerEncoderLayer,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.vit import (TransformerEncoderLayer,
                                         VisionTransformer)
 from .utils import check_norm_state
 

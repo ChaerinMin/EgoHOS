@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmseg.models.decode_heads import GCHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import GCHead
 from .utils import to_cuda
 
 

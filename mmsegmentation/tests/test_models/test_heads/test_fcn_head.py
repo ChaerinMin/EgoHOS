@@ -4,7 +4,7 @@ import torch
 from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule
 from mmcv.utils.parrots_wrapper import SyncBatchNorm
 
-from mmseg.models.decode_heads import DepthwiseSeparableFCNHead, FCNHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import DepthwiseSeparableFCNHead, FCNHead
 from .utils import to_cuda
 
 

@@ -9,8 +9,8 @@ from mmcv.utils import print_log
 from prettytable import PrettyTable
 from torch.utils.data import Dataset
 
-from mmseg.core import eval_metrics, intersect_and_union, pre_eval_to_metrics
-from mmseg.utils import get_root_logger
+from submodules.EgoHOS.mmsegmentation.mmseg.core import eval_metrics, intersect_and_union, pre_eval_to_metrics
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import get_root_logger
 from .builder import DATASETS
 from .pipelines import Compose, LoadAnnotations
 

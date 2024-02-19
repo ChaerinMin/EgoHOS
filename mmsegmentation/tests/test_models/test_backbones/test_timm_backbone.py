@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import TIMMBackbone
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import TIMMBackbone
 from .utils import check_norm_state
 
 

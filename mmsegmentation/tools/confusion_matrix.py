@@ -8,7 +8,7 @@ import numpy as np
 from matplotlib.ticker import MultipleLocator
 from mmcv import Config, DictAction
 
-from mmseg.datasets import build_dataset
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import build_dataset
 
 
 def parse_args():

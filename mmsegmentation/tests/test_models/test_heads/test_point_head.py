@@ -2,7 +2,7 @@
 import torch
 from mmcv.utils import ConfigDict
 
-from mmseg.models.decode_heads import FCNHead, PointHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import FCNHead, PointHead
 from .utils import to_cuda
 
 

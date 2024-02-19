@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import ERFNet
-from mmseg.models.backbones.erfnet import (DownsamplerBlock, NonBottleneck1d,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import ERFNet
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.erfnet import (DownsamplerBlock, NonBottleneck1d,
                                            UpsamplerBlock)
 
 

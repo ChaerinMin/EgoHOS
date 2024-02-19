@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 import torch
 
-from mmseg.models.losses import Accuracy, reduce_loss, weight_reduce_loss
+from submodules.EgoHOS.mmsegmentation.mmseg.models.losses import Accuracy, reduce_loss, weight_reduce_loss
 
 
 def test_weight_reduce_loss():

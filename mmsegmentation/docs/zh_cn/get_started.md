@@ -204,7 +204,7 @@ PYTHONPATH="$(dirname $0)/..":$PYTHONPATH
 为了验证 MMSegmentation 和它所需要的环境是否正确安装，我们可以使用样例 python 代码来初始化一个 segmentor 并推理一张 demo 图像。
 
 ```python
-from mmseg.apis import inference_segmentor, init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import inference_segmentor, init_segmentor
 import mmcv
 
 config_file = 'configs/pspnet/pspnet_r50-d8_512x1024_40k_cityscapes.py'

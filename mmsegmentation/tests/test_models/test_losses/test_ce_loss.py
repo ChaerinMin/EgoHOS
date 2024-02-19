@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.losses.cross_entropy_loss import _expand_onehot_labels
+from submodules.EgoHOS.mmsegmentation.mmseg.models.losses.cross_entropy_loss import _expand_onehot_labels
 
 
 @pytest.mark.parametrize('use_sigmoid', [True, False])
@@ -10,7 +10,7 @@ from mmseg.models.losses.cross_entropy_loss import _expand_onehot_labels
 @pytest.mark.parametrize('avg_non_ignore', [True, False])
 @pytest.mark.parametrize('bce_input_same_dim', [True, False])
 def test_ce_loss(use_sigmoid, reduction, avg_non_ignore, bce_input_same_dim):
-    from mmseg.models import build_loss
+    from submodules.EgoHOS.mmsegmentation.mmseg.models import build_loss
 
     # use_mask and use_sigmoid cannot be true at the same time
     with pytest.raises(AssertionError):
@@ -257,7 +257,7 @@ def test_ce_loss(use_sigmoid, reduction, avg_non_ignore, bce_input_same_dim):
 @pytest.mark.parametrize('avg_non_ignore', [True, False])
 @pytest.mark.parametrize('with_weight', [True, False])
 def test_binary_class_ce_loss(avg_non_ignore, with_weight):
-    from mmseg.models import build_loss
+    from submodules.EgoHOS.mmsegmentation.mmseg.models import build_loss
 
     fake_pred = torch.rand(3, 1, 10, 10)
     fake_label = torch.randint(0, 2, (3, 10, 10))

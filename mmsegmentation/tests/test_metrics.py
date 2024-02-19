@@ -1,9 +1,9 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import numpy as np
 
-from mmseg.core.evaluation import (eval_metrics, mean_dice, mean_fscore,
+from submodules.EgoHOS.mmsegmentation.mmseg.core.evaluation import (eval_metrics, mean_dice, mean_fscore,
                                    mean_iou)
-from mmseg.core.evaluation.metrics import f_score
+from submodules.EgoHOS.mmsegmentation.mmseg.core.evaluation.metrics import f_score
 
 
 def get_confusion_matrix(pred_label, label, num_classes, ignore_index):

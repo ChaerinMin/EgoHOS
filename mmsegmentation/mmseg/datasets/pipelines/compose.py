@@ -3,7 +3,7 @@ import collections
 
 from mmcv.utils import build_from_cfg
 
-from ..builder import PIPELINES
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.builder import PIPELINES
 
 
 @PIPELINES.register_module()

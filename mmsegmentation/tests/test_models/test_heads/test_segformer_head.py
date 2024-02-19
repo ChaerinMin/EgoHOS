@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.decode_heads import SegformerHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import SegformerHead
 
 
 def test_segformer_head():

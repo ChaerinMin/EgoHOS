@@ -3,9 +3,9 @@ import pytest
 import torch
 from mmcv.cnn import ConvModule
 
-from mmseg.models.backbones.unet import (BasicConvBlock, DeconvModule,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.unet import (BasicConvBlock, DeconvModule,
                                          InterpConv, UNet, UpConvBlock)
-from mmseg.ops import Upsample
+from submodules.EgoHOS.mmsegmentation.mmseg.ops import Upsample
 from .utils import check_norm_state
 
 

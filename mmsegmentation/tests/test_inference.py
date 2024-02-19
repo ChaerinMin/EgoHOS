@@ -3,7 +3,7 @@ import os.path as osp
 
 import mmcv
 
-from mmseg.apis import inference_segmentor, init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import inference_segmentor, init_segmentor
 
 
 def test_test_time_augmentation_on_cpu():

@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones.mae import MAE
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.mae import MAE
 from .utils import check_norm_state
 
 

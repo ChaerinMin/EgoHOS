@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmseg.models import FPN
+from submodules.EgoHOS.mmsegmentation.mmseg.models import FPN
 
 
 def test_fpn():

@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmseg.models.decode_heads import SegmenterMaskTransformerHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import SegmenterMaskTransformerHead
 from .utils import _conv_has_norm, to_cuda
 
 

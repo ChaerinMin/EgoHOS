@@ -8,7 +8,7 @@ import mmcv
 import numpy as np
 from mmcv import Config, DictAction
 
-from mmseg.datasets.builder import build_dataset
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.builder import build_dataset
 
 
 def parse_args():

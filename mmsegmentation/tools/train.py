@@ -13,11 +13,11 @@ from mmcv.cnn.utils import revert_sync_batchnorm
 from mmcv.runner import get_dist_info, init_dist
 from mmcv.utils import Config, DictAction, get_git_hash
 
-from mmseg import __version__
-from mmseg.apis import init_random_seed, set_random_seed, train_segmentor
-from mmseg.datasets import build_dataset
-from mmseg.models import build_segmentor
-from mmseg.utils import collect_env, get_root_logger, setup_multi_processes
+from submodules.EgoHOS.mmsegmentation.mmseg import __version__
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import init_random_seed, set_random_seed, train_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import build_dataset
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import collect_env, get_root_logger, setup_multi_processes
 
 torch.backends.cudnn.deterministic = True
 

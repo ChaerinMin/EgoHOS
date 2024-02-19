@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 import torch
 
-from mmseg.models import MLANeck
+from submodules.EgoHOS.mmsegmentation.mmseg.models import MLANeck
 
 
 def test_mla():

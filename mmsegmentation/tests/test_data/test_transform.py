@@ -8,7 +8,7 @@ import pytest
 from mmcv.utils import build_from_cfg
 from PIL import Image
 
-from mmseg.datasets.builder import PIPELINES
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.builder import PIPELINES
 
 
 def test_resize_to_multiple():

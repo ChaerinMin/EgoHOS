@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import ResNeXt
-from mmseg.models.backbones.resnext import Bottleneck as BottleneckX
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import ResNeXt
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.resnext import Bottleneck as BottleneckX
 from .utils import is_block
 
 

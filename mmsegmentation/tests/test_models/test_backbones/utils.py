@@ -3,8 +3,8 @@ import torch
 from torch.nn.modules import GroupNorm
 from torch.nn.modules.batchnorm import _BatchNorm
 
-from mmseg.models.backbones.resnet import BasicBlock, Bottleneck
-from mmseg.models.backbones.resnext import Bottleneck as BottleneckX
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.resnet import BasicBlock, Bottleneck
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.resnext import Bottleneck as BottleneckX
 
 
 def is_block(modules):

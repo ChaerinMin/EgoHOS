@@ -3,9 +3,9 @@ import numpy as np
 import torch
 from torch import nn
 
-from mmseg.models import BACKBONES, HEADS
-from mmseg.models.decode_heads.cascade_decode_head import BaseCascadeDecodeHead
-from mmseg.models.decode_heads.decode_head import BaseDecodeHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models import BACKBONES, HEADS
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads.cascade_decode_head import BaseCascadeDecodeHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads.decode_head import BaseDecodeHead
 
 
 def _demo_mm_inputs(input_shape=(1, 3, 8, 16), num_classes=10):

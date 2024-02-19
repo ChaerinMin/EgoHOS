@@ -5,9 +5,9 @@ from mmcv.ops import DeformConv2dPack
 from mmcv.utils.parrots_wrapper import _BatchNorm
 from torch.nn.modules import AvgPool2d, GroupNorm
 
-from mmseg.models.backbones import ResNet, ResNetV1d
-from mmseg.models.backbones.resnet import BasicBlock, Bottleneck
-from mmseg.models.utils import ResLayer
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import ResNet, ResNetV1d
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.resnet import BasicBlock, Bottleneck
+from submodules.EgoHOS.mmsegmentation.mmseg.models.utils import ResLayer
 from .utils import all_zeros, check_norm_state, is_block, is_norm
 
 

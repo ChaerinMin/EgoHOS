@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import STDCContextPathNet
-from mmseg.models.backbones.stdc import (AttentionRefinementModule,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import STDCContextPathNet
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.stdc import (AttentionRefinementModule,
                                          FeatureFusionModule, STDCModule,
                                          STDCNet)
 

@@ -2,8 +2,8 @@
 import torch
 from mmcv.cnn import ConvModule
 
-from mmseg.models.backbones import BiSeNetV2
-from mmseg.models.backbones.bisenetv2 import (BGALayer, DetailBranch,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import BiSeNetV2
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.bisenetv2 import (BGALayer, DetailBranch,
                                               SemanticBranch)
 
 

@@ -5,7 +5,7 @@ import mmcv
 import pytest
 from mmcv.utils import build_from_cfg
 
-from mmseg.datasets.builder import PIPELINES
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.builder import PIPELINES
 
 
 def test_multi_scale_flip_aug():

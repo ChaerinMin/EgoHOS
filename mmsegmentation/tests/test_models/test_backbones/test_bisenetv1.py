@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import BiSeNetV1
-from mmseg.models.backbones.bisenetv1 import (AttentionRefinementModule,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import BiSeNetV1
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.bisenetv1 import (AttentionRefinementModule,
                                               ContextPath, FeatureFusionModule,
                                               SpatialPath)
 

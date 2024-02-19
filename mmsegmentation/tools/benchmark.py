@@ -10,8 +10,8 @@ from mmcv import Config
 from mmcv.parallel import MMDataParallel
 from mmcv.runner import load_checkpoint, wrap_fp16_model
 
-from mmseg.datasets import build_dataloader, build_dataset
-from mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import build_dataloader, build_dataset
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
 
 
 def parse_args():

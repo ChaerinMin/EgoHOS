@@ -8,7 +8,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, Dataset, dataloader
 
-from mmseg.apis import single_gpu_test
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import single_gpu_test
 
 
 class ExampleDataset(Dataset):

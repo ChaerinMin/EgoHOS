@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
 
-from mmseg.core.optimizers.layer_decay_optimizer_constructor import (
+from submodules.EgoHOS.mmsegmentation.mmseg.core.optimizers.layer_decay_optimizer_constructor import (
     LayerDecayOptimizerConstructor, LearningRateDecayOptimizerConstructor)
 
 base_lr = 1

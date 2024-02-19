@@ -3,8 +3,8 @@ from argparse import ArgumentParser
 
 import cv2
 
-from mmseg.apis import inference_segmentor, init_segmentor
-from mmseg.core.evaluation import get_palette
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import inference_segmentor, init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.core.evaluation import get_palette
 
 
 def main():

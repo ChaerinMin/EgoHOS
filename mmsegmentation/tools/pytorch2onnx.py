@@ -14,11 +14,11 @@ from mmcv.onnx import register_extra_symbolics
 from mmcv.runner import load_checkpoint
 from torch import nn
 
-from mmseg.apis import show_result_pyplot
-from mmseg.apis.inference import LoadImage
-from mmseg.datasets.pipelines import Compose
-from mmseg.models import build_segmentor
-from mmseg.ops import resize
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import show_result_pyplot
+from submodules.EgoHOS.mmsegmentation.mmseg.apis.inference import LoadImage
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.pipelines import Compose
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.ops import resize
 
 torch.manual_seed(3)
 

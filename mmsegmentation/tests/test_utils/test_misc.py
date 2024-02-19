@@ -2,7 +2,7 @@
 import os.path as osp
 import tempfile
 
-from mmseg.utils import find_latest_checkpoint
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import find_latest_checkpoint
 
 
 def test_find_latest_checkpoint():

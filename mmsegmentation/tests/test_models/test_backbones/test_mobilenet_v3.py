@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import MobileNetV3
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import MobileNetV3
 
 
 def test_mobilenet_v3():

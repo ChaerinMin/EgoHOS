@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.models.backbones import CGNet
-from mmseg.models.backbones.cgnet import (ContextGuidedBlock,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones import CGNet
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.cgnet import (ContextGuidedBlock,
                                           GlobalContextExtractor)
 
 

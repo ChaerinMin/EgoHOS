@@ -3,7 +3,7 @@ import pytest
 import torch
 import torch.nn.functional as F
 
-from mmseg.models import build_loss
+from submodules.EgoHOS.mmsegmentation.mmseg.models import build_loss
 
 
 # test focal loss with use_sigmoid=False

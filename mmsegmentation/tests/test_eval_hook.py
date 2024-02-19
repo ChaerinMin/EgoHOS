@@ -10,8 +10,8 @@ import torch.nn as nn
 from mmcv.runner import obj_from_dict
 from torch.utils.data import DataLoader, Dataset
 
-from mmseg.apis import single_gpu_test
-from mmseg.core import DistEvalHook, EvalHook
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import single_gpu_test
+from submodules.EgoHOS.mmsegmentation.mmseg.core import DistEvalHook, EvalHook
 
 
 class ExampleDataset(Dataset):

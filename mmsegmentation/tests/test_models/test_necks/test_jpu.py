@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.necks import JPU
+from submodules.EgoHOS.mmsegmentation.mmseg.models.necks import JPU
 
 
 def test_fastfcn_neck():

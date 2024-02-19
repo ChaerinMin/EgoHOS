@@ -3,7 +3,7 @@ import torch
 
 
 def test_dice_lose():
-    from mmseg.models import build_loss
+    from submodules.EgoHOS.mmsegmentation.mmseg.models import build_loss
 
     # test dice loss with loss_type = 'multi_class'
     loss_cfg = dict(

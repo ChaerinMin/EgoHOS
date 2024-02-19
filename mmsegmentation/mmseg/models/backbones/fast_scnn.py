@@ -4,8 +4,8 @@ import torch.nn as nn
 from mmcv.cnn import ConvModule, DepthwiseSeparableConvModule
 from mmcv.runner import BaseModule
 
-from mmseg.models.decode_heads.psp_head import PPM
-from mmseg.ops import resize
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads.psp_head import PPM
+from submodules.EgoHOS.mmsegmentation.mmseg.ops import resize
 from ..builder import BACKBONES
 from ..utils import InvertedResidual
 

@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.backbones.twins import (PCPVT, SVT,
+from submodules.EgoHOS.mmsegmentation.mmseg.models.backbones.twins import (PCPVT, SVT,
                                           ConditionalPositionEncoding,
                                           LocallyGroupedSelfAttention)
 

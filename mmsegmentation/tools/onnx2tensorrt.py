@@ -14,9 +14,9 @@ from mmcv.ops import get_onnxruntime_op_path
 from mmcv.tensorrt import (TRTWraper, is_tensorrt_plugin_loaded, onnx2trt,
                            save_trt_engine)
 
-from mmseg.apis.inference import LoadImage
-from mmseg.datasets import DATASETS
-from mmseg.datasets.pipelines import Compose
+from submodules.EgoHOS.mmsegmentation.mmseg.apis.inference import LoadImage
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import DATASETS
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets.pipelines import Compose
 
 
 def get_GiB(x: int):

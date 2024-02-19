@@ -6,7 +6,7 @@ import pytest
 from torch.utils.data import (DistributedSampler, RandomSampler,
                               SequentialSampler)
 
-from mmseg.datasets import (DATASETS, ConcatDataset, MultiImageMixDataset,
+from submodules.EgoHOS.mmsegmentation.mmseg.datasets import (DATASETS, ConcatDataset, MultiImageMixDataset,
                             build_dataloader, build_dataset)
 
 

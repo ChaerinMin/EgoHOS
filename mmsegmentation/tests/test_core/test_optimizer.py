@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from mmcv.runner import DefaultOptimizerConstructor
 
-from mmseg.core.builder import (OPTIMIZER_BUILDERS, build_optimizer,
+from submodules.EgoHOS.mmsegmentation.mmseg.core.builder import (OPTIMIZER_BUILDERS, build_optimizer,
                                 build_optimizer_constructor)
 
 

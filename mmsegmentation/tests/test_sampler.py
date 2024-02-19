@@ -2,8 +2,8 @@
 import pytest
 import torch
 
-from mmseg.core import OHEMPixelSampler
-from mmseg.models.decode_heads import FCNHead
+from submodules.EgoHOS.mmsegmentation.mmseg.core import OHEMPixelSampler
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import FCNHead
 
 
 def _context_for_ohem():

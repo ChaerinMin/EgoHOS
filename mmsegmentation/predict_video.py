@@ -1,4 +1,4 @@
-from mmseg.apis import inference_segmentor, init_segmentor
+from submodules.EgoHOS.mmsegmentation.mmseg.apis import inference_segmentor, init_segmentor
 import mmcv
 import glob
 import os

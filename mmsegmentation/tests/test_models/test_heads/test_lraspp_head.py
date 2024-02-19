@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.decode_heads import LRASPPHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import LRASPPHead
 
 
 def test_lraspp_head():

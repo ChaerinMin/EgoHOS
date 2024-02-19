@@ -128,7 +128,7 @@ test_pipeline = [
 1. 在任何一个文件里写一个新的流程，例如 `my_pipeline.py`，它以一个字典作为输入并且输出一个字典
 
     ```python
-    from mmseg.datasets import PIPELINES
+    from submodules.EgoHOS.mmsegmentation.mmseg.datasets import PIPELINES
 
     @PIPELINES.register_module()
     class MyTransform:

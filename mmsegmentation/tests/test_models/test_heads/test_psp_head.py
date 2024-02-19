@@ -2,7 +2,7 @@
 import pytest
 import torch
 
-from mmseg.models.decode_heads import PSPHead
+from submodules.EgoHOS.mmsegmentation.mmseg.models.decode_heads import PSPHead
 from .utils import _conv_has_norm, to_cuda
 
 

@@ -7,7 +7,7 @@ import cv2
 import pytest
 from mmcv import Config
 
-from mmseg.utils import setup_multi_processes
+from submodules.EgoHOS.mmsegmentation.mmseg.utils import setup_multi_processes
 
 
 @pytest.mark.parametrize('workers_per_gpu', (0, 2))

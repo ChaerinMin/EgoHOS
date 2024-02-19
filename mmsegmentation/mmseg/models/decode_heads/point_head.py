@@ -10,8 +10,8 @@ try:
 except ModuleNotFoundError:
     point_sample = None
 
-from mmseg.models.builder import HEADS
-from mmseg.ops import resize
+from submodules.EgoHOS.mmsegmentation.mmseg.models.builder import HEADS
+from submodules.EgoHOS.mmsegmentation.mmseg.ops import resize
 from ..losses import accuracy
 from .cascade_decode_head import BaseCascadeDecodeHead
 
